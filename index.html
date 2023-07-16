@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem Vindo</title>
+    <link rel="shortcut icon" href="/img-traffy/favicon.ico" type="image/x-icon">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Bootstrap Icones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Font-Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agdasima&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agdasima&family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-0">
+            <a href="#" class="navbar-brand">
+                <img src="img-traffy/Trafyy Ma.jpg" alt="icone Traffy">
+                <span class="secondary-color font-1">rafyy</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product-area">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team-area">Nosso time</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-area">Sobre a Trafyy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Slider -->
+    <main>
+        <div class="container-slide" id="mainSlider">
+            <div class="carousel slide" data-bs-ride="carousel" id="slider">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img-products/produtos.jpg" alt="Produtos">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Produtos de qualidade?</h5>
+                            <a type="button" class="btn btn-dark" href="#product-area">De Uma olhada</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img-products/offer.jpg" alt="Oferta">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Descontos de 20 a 50% em todo site</h5>
+                            <a type="button" class="btn btn-dark" href="#offer-area">Eu quero!!</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img-team/nossoTime.jpg" alt="A Equipe">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Conheça nosso time</h5>
+                            <a type="button" class="btn btn-dark" href="#team-area">Saiba mais!!</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img-traffy/quemSomos.jpg" alt="Quem Somos">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Quem Somos?</h5>
+                            <a type="button" class="btn btn-dark" href="#about-area">Saiba Mais!!</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#slider" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#slider" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </a>
+            </div>
+
+        </div>
+        <!-- End Slide -->
+        <!-- Card-Produtos -->
+        <div class="col-12 col-md-10 offset-md-1" id="product-area">
+            <div class="row text-center d-md-block card-init">
+                <div class="col-12 ">
+                    <h3>Mais vendidos <i class="bi bi-fire"></i>
+                    </h3>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="/img-products/c_pant_girl.png" alt="Calça Feminina">
+                            <h5 class="card-title primary-color ">Calça Jeans Feminina</h5>
+                            <p class="card-text">
+                                R$89,90
+                            </p>
+                            <a href="#" class="btn btn-dark "><i class="bi bi-cart secondary-color"> Adicionar ao
+                                    carinho</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="/img-products/c_polo-shirt.png" alt="Polo Feminina">
+                            <h5 class="card-title primary-color ">Camisa Polo Feminina</h5>
+                            <p class="card-text">
+                                R$59,90
+                            </p>
+                            <a href="#" class="btn btn-dark "><i class="bi bi-cart secondary-color"> Adicionar ao
+                                    carinho</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="/img-products/c_t-shirt_men.png" alt="Jaqueta Masculina">
+                            <h5 class="card-title primary-color ">Jaqueta Masculina</h5>
+                            <p class="card-text">
+                                R$109,90
+                            </p>
+                            <a href="#" class="btn btn-dark "><i class="bi bi-cart secondary-color"> Adicionar ao
+                                    carinho</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="offer-area">
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="/img-products/special_product_4.jpg" alt="Vestido Feminina">
+                            <h5 class="card-title primary-color ">Vestido Longo Feminino</h5>
+                            <p class="card-text">De: <s>R$120,00</s> Por:<strong> 83,99!!</strong></p>
+                            <a href="#" class="btn btn-dark "><i class="bi bi-cart secondary-color"> Adicionar ao
+                                    carinho</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="/img-products/c_formal_gray_shirt.png" alt="camisa formal Feminina">
+                            <h5 class="card-title primary-color ">Camisa formal Feminina</h5>
+                            <p class="card-text">De: <s>R$100,00</s> Por:<strong> 79,99!!</strong></p>
+                            <a href="#" class="btn btn-dark "><i class="bi bi-cart secondary-color"> Adicionar ao
+                                    carinho</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="/img-products/on_sale_2.jpg" alt="Calça Feminina">
+                            <h5 class="card-title primary-color ">Moleton Canguru Masculino</h5>
+                            <p class="card-text">De: <s>R$150,00</s> Por:<strong> 100,00!!</strong></p>
+                            <a href="#" class="btn btn-dark "><i class="bi bi-cart secondary-color"> Adicionar ao
+                                    carinho</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Card-Produtos -->
+        <!--Team-Area -->
+        <div class="col-12 col-md-10 offset-md-1" id="team-area">
+            <div class="row text-center d-md-block main-title">
+                <h3>Nosso Time <i class="bi bi-boxes"></i></h3>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="circulo-team">
+                            <img src="img-team/homen-1.jpg" alt="Image-perfi1" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">
+                                Guilherme Gomes
+                            </h4>
+                            <h5 class="text-center">
+                                Desenvolvedor Back-end
+                            </h5>
+                            <p>
+                                Guilherme é um Desenvolvedor back-end talentoso e apaixonado por codificação. Ele é
+                                especializado em linguagens de programação como Python, PHP e Java, e possui vasta
+                                experiência na criação de funcionalidades robustas e escaláveis para sites. Guilherme é
+                                meticulosa ao escrever códigos eficientes e seguros, garantindo que os servidores e
+                                bancos de dados funcionem de forma otimizada.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="circulo-team">
+                            <img src="img-team/mulher-1.jpg" alt="Image-perfi2" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">
+                                Ana Silva
+                            </h4>
+                            <h5 class="text-center">
+                                Web Designer
+                            </h5>
+                            <p>
+                                Ana é uma designer talentosa, especializada em criar interfaces atraentes
+                                para sites. Ela combina habilidades artísticas com conhecimentos técnicos
+                                para desenvolver layouts e elementos visuais que proporcionam uma experiência agradável
+                                ao usuário. Ana está sempre atualizada com as últimas tendências de design e utiliza
+                                suas
+                                ferramentas para criar sites modernos e impactantes.
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="circulo-team">
+                            <img src="img-team/mulher-2.jpg" alt="Image-perfi3" class="card-img-top">
+
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">
+                                Laura Santos
+                            </h4>
+                            <h5 class="text-center">
+                                Desenvolvedora Front-end
+                            </h5>
+                            <p>
+                                Laura é uma desenvolvedora front-end apaixonada por transformar designs em código
+                                funcional. Ela possui habilidades avançadas em HTML, CSS e JavaScript, e utiliza essas
+                                linguagens para criar interfaces responsivas e interativas. Laura está sempre em busca
+                                de aprimorar suas habilidades de programação e se mantém atualizada com as melhores
+                                práticas e tendências em desenvolvimento front-end.
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- End Team-Area -->
+        <!-- Trafyy-area -->
+        <div class="container-fluid" id="about-area">
+            <div class="row text-center d-md-block about-main-title">
+                <h3>Sobre <font color="#A219E">Trafyy</font> <i class="bi bi-building secondary-color"></i></h3>
+            </div>
+            <div class="row">
+                <div class=" col-12 col-md-6">
+                    <img class="img-fluid" src="img-traffy/empresa.jpg" alt="Sobre a empresa">
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <h3 class="about-title text-center">Na Trafyy, estamos moldando o futuro da moda.</h3>
+                    <p class="font-1">
+                        A Trafyy é uma renomada empresa de roupas que se destaca no mercado pela qualidade e estilo de
+                        suas peças. Com uma ampla variedade de produtos, desde roupas casuais até itens de moda festa, a
+                        Trafyy oferece opções para todos os gostos e ocasiões.
+                    <p>Vantagens de compra na Trafyy:</p>
+                    <ul id="about-list" class=" text-start">
+                        <li><i class="bi bi-check secondary-color"></i> Alta qualidade das peças, garantindo
+                            durabilidade e conforto.</li>
+                        <li><i class="bi bi-check secondary-color"></i> Design atualizado e alinhado com as últimas
+                            tendências da moda.</li>
+                        <li><i class="bi bi-check secondary-color"></i> Acabamento sofisticado e elegante, conferindo um
+                            aspecto premium.</li>
+                        <li><i class="bi bi-check secondary-color"></i> Experiência de compra tranquila e satisfatória,
+                            com foco no cliente.</li>
+                        <li><i class="bi bi-check secondary-color"></i> Agilidade na entrega</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Trafyy-area -->
+    </main>
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Footer-top -->
+                <div class="col-12" id="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-4">
+                            <h2>Trafyy</h2>
+                        </div>
+                        <div class="col-4" id="social-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-youtube"></i>
+                            <i class="bi bi-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer-details -->
+                <div class="col-12 font-1" id="footer-details">
+                    <div class="row">
+                        <div class="col-12 col-md-4" id="news-container">
+                            <h4>Quer recebe alertas de promoções?</h4>
+                            <p class="secondary-color">Inscreva-se e não perca nada</p>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" action="form-control" placeholder="Digite seu email aqui!!">
+                                </div>
+                                <button class="btn btn-dark" type="submit">Inscrever</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-4" id="contact-container">
+                            <h4>Formas de contato</h4>
+                            <p class="secondary-color">(19) 9999-9999</p>
+                            <p class="secondary-color">contato@Traffy.com </p>
+                        </div>
+                        <div class="col-12 col-md-4" id="links-container">
+                            <div class="row font-1">
+                                <h4>Você pode esta buscando por:</h4>
+                                <div class="col-4">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="secondary-color font-1">Produtos</a></li>
+                                        <li><a href="#" class="secondary-color font-1">Sobre</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="secondary-color font-1">Trabalhe Conosco</a></li>
+                                        <li><a href="#" class="secondary-color font-1">Contato</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer-bottom -->
+                <div class="col-12" id="footer-bottom">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color font-1">Trafyy &copy; 2023</p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <p class="secondary-color font-1">Deixando você cada vez mais bonito <i
+                                    class="bi bi-heart secondary-color"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End FOOTER -->
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
